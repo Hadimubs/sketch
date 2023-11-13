@@ -1,0 +1,40 @@
+body{
+background-color: black;
+color:yellow;
+}
+h1{
+color: whitesmoke;
+background-color: blue;
+margin: 0;
+}
+#show_sketch{
+float:right;
+}
+#sc{
+margin-left: 20px;
+font-size: 30px;
+}
+#ti{
+float:right;
+font-size: 30px;
+margin-right:20px;
+}
+#draw{
+color: white;
+}
+p{
+font-size: larger;
+}
+canvas{
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    border:5px dashed red;
+    border-radius: 20px;
+    margin-top: 50px;
+    }
+
+@keyframes example{
+from{box-shadow:1px 1px 28px blue}
+to{box-shadow:1px 1px 28px white}
+}
